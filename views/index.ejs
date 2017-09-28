@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat</title>
+  <link rel="stylesheet prefetch" href="css/reset.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    <div class="people-list" id="people-list">
+      <ul class="list">
+        <li class="clearfix">
+          <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-1/p74x74/17990838_1856421527956603_3184442184028035610_n.jpg?oh=5379de80a3ccf046dabebe858e067d3d&oe=5A819C9D" alt="avatar">
+          <div class="about">
+            <span class="name">Vincent Porter</span>
+            <div class="status">
+              <i class="fa fa-circle online"></i>
+            </div>
+          </div>
+        </li>
+        
+        <li class="clearfix">
+          <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-1/c6.6.74.74/p86x86/1000894_176813039166038_2076257391_n.jpg?oh=f10b43e41e0f5d1e64e52d8d837e8127&oe=5A4F103B" alt="avatar">
+          <div class="about">
+            <span class="name">Aiden Chavez</span>
+            <div class="status">
+              <i class="fa fa-circle offline"></i>
+            </div>
+          </div>
+        </li>
+        
+        <li class="clearfix">
+          <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-1/p74x74/17990838_1856421527956603_3184442184028035610_n.jpg?oh=5379de80a3ccf046dabebe858e067d3d&oe=5A819C9D" alt="avatar">
+          <div class="about">
+            <span class="name">Mike Thomas</span>
+            <div class="status">
+              <i class="fa fa-circle online"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="search">
+        <i class="fa fa-search"></i>
+      </div>
+    </div>
+
+    <div class="chat">
+      <div class="chat-header clearfix">
+        <div class="chat-about">
+          <div class="chat-with">Aiden Chavez</div>
+        </div>
+        <i class="fa fa-circle online" style="padding: 12px;"></i>
+      </div> <!-- end chat-header -->
+      
+      <div class="chat-history">
+        <ul style="margin-bottom: 0px;">
+          <li class="clearfix">
+            <div class="message-data align-right">
+              <span class="message-data-time">10:10 AM, Today</span> &nbsp; &nbsp;
+              <span class="message-data-name">Olia</span> <i class="fa fa-circle me"></i>
+              
+            </div>
+            <div class="message other-message float-right">
+              Hi Vincent, how are you? How is the project coming along?
+            </div>
+          </li>
+          
+          <li>
+            <div class="message-data">
+              <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
+              <span class="message-data-time">10:12 AM, Today</span>
+            </div>
+            <div class="message my-message">
+              Are we meeting today? Project has been already finished and I have results to show you.
+            </div>
+          </li>
+          
+          <li class="clearfix">
+            <div class="message-data align-right">
+              <span class="message-data-time">10:14 AM, Today</span> &nbsp; &nbsp;
+              <span class="message-data-name">Olia</span> <i class="fa fa-circle me"></i>
+              
+            </div>
+            <div class="message other-message float-right">
+              Well I am not sure. The rest of the team is not here yet. Maybe in an hour or so? Have you faced any problems at the last phase of the project?
+            </div>
+          </li>
+          
+          <li>
+            <div class="message-data">
+              <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
+              <span class="message-data-time">10:20 AM, Today</span>
+            </div>
+            <div class="message my-message">
+              Actually everything was fine. I'm very excited to show this to our team.
+            </div>
+          </li>
+        </ul>
+      </div> <!-- end chat-history -->
+
+      <div class="">
+        <i class="fa fa-circle online"></i>
+        <i class="fa fa-circle online" style="color: #AED2A6"></i>
+        <i class="fa fa-circle online" style="color:#DAE9DA"></i>
+      </div>
+      
+      <div class="chat-message clearfix">
+        <input name="message-to-send" id="message-to-send" placeholder="Type your message" rows="1"></input>
+        <i class="fa fa-file-o" style="padding-left: 5px;"></i>&nbsp;
+        <i class="fa fa-file-image-o"></i>
+      </div> <!-- end chat-message -->
+    </div> <!-- end chat -->
+  </div>
+</body>
+</html>
