@@ -55,6 +55,7 @@ i.online, i.offline{
 
 .people-list ul li {
   padding-bottom: 10px;
+  cursor: pointer;
 }
 .people-list img {
   float: left;
@@ -83,7 +84,7 @@ i.online, i.offline{
   position: fixed;
   right: 18%;
   bottom: 0;
-  background: #F2F5F8;
+  background: #F2F5F8;  
   color: #434651;
   width: 23%;
 }
